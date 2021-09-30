@@ -1,8 +1,8 @@
 
 .rec {
-   width: 500px;
+   width: 800px;
    height: 50px;
    border: 3px solid black;
-   padding: 50px;
+   padding: 80px 50px 50px 50px ;
    background-color: aqua;
 }
