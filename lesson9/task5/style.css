@@ -41,6 +41,7 @@ main {
 .head {
    height: 200px;
    width: 200px;
+   margin: 0;
    background-color: #7effd4;
    position: absolute;
    top: 50%;
