@@ -1,0 +1,27 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+}
+
+.container {
+   position: relative;
+   width: 50%;
+   height: 100%;
+}
+
+.footer {
+   clear: both;
+}
+
+.red {
+   background-color: red;
+   float: right;
+}
+
+.green {
+   background-color: green;
+   float: left;
+}
