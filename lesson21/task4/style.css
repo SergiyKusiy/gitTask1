@@ -16,19 +16,19 @@ body{
 
 }
 .header{
-   background: linear-gradient(60deg, red , orange);
+background: linear-gradient(60deg, red , orange);
 }
 h1{
-   color: white;
-   text-align: center;
+color: white;
+text-align: center;
 
 }
 .footer{
-   background-color: #e5e5e5;
-   padding: 0.5em;
-   width: 100%;
-   text-align: center;
-   justify-content: space-between;
+background-color: #e5e5e5;
+padding: 0.5em;
+width: 100%;
+text-align: center;
+justify-content: space-between;
 }
 .main{
    display: flex;
@@ -68,9 +68,9 @@ h1{
    background-color: #808080;
    color: white;
    line-height: 2em;
-   margin-bottom: 0.5em;
-   padding-left: 0.5em;
-   padding-right: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 a{
    display: block;
