@@ -1,0 +1,35 @@
+@import 'breakpoints';
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   @include landscape{
+       flex-direction: row;
+   }
+}
+.square{ 
+   width: 100px;
+   height: 100px;
+   margin: 8px;
+   background-color: #ff7f50;;
+  
+   @include medium{
+      background-color: #8a2be2;
+   }
+   @include large{
+      background-color: #a61;
+   }
+   @include xlarge{
+      background-color: #c47;
+   }
+}
