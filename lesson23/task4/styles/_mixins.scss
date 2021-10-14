@@ -1,0 +1,5 @@
+@mixin flexb ($minh, $df, $f) {
+   min-height: $minh;
+   display: $df;
+   flex: $f;
+}

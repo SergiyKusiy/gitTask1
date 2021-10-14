@@ -1,0 +1,58 @@
+@import 'layout';
+@import 'mixins';
+@import 'breakpoints';
+
+
+.container {
+   display: flex;
+   flex-direction: column;
+   
+   .products {
+      display: flex;
+      flex-direction: column;
+      
+      .navigation {
+         background-color: #ff7f50;
+         @include flexb (200px, flex, 1);
+      }
+      
+      .products-list {
+         background-color: #006400;
+         @include flexb (200px, flex, 1);
+      }
+   }
+
+   .news {
+      background-color: #0ff;
+      @include flexb (200px, flex, 1);
+   }
+
+   span {
+      font-family: Verdana;
+      margin: auto;
+      padding: 8px;
+      border-radius: 4px;
+      background-color: #faebd7;
+      text-transform: lowercase;
+   }
+}
+
+.container {
+   @include  large {
+      .products {
+         display: flex;
+         flex-direction: row;
+         flex: 2;
+      }
+   }
+}
+body {
+   @include  xlarge {
+      .container {
+         display: flex;
+         flex-direction: row;
+         
+      }
+   }
+}
+
