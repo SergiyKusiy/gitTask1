@@ -60,7 +60,7 @@
   text-transform: lowercase;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
   .container .products {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -75,7 +75,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   body .container {
     display: -webkit-box;
     display: -ms-flexbox;
