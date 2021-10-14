@@ -15,11 +15,11 @@
       padding: 0 8px;
       color: #fff;
       cursor: pointer;
-      &:hover {
-         background: #9acd32;
-      }
       &_active {
          color: yellow;
+      }
+      &:hover {
+         background: #9acd32;
       }
    }
 }

@@ -22,12 +22,12 @@
   cursor: pointer;
 }
 
-.menu__item:hover {
-  background: #9acd32;
+.menu__item_active {
+  color: yellow;
 }
 
-.menu__item:active {
-  color: yellow;
+.menu__item:hover {
+  background: #9acd32;
 }
 
 .submenu {
