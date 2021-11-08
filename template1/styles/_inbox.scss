@@ -1,0 +1,22 @@
+.inbox {
+   padding: 50px 15px;
+   background-color: $inbox-bacground-color;
+
+
+   &__banner {
+      margin: 0;
+
+      &-illustration {
+         max-width: 100%;
+      }
+      &-caption {
+         display: none;
+         margin-top: 15px;
+         font-size: 14px;
+         line-height: 22px;
+         text-align: center;
+         opacity: 0.6;
+      }
+   }
+
+}
